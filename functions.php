@@ -27,4 +27,13 @@ function colorCloudCallback($matches) {
 }
 add_filter('wp_tag_cloud', 'colorCloud', 1);
 
+function pre_comment_check() {
+	if ($_POST['idcode'] != 3) {
+		wp_die("验证码不正确，请输入阿拉伯数字三.");
+	}
+}
+
+add_filter('pre_comment_on_post', 'pre_comment_check');
+
+
 ?>
