@@ -1,0 +1,244 @@
+/*Theme Name: Simple
+  URI: http://blog.findstr.tk
+  Description: This is my Simple theme.
+  Version: 3.8.1
+  Author: findstr
+  URI: http://blog.gotocoding.com
+ */
+body {
+        font-family: Tahoma, Verdana, Arial, Helvetica, Georgia, Sans-seriff;
+        font-size:15px;
+        text-align:center;
+        vertical-align:top;
+        background:#f5f8fa;
+        color:#000000;
+}
+
+h1 {
+        font-family: Georgia, Sans-serif;
+        font-size: 34px;
+}
+
+code {
+	line-height:15px;
+	white-space:pre;
+}
+
+a:link, a:visited, a:hover {
+        text-decoration: none;
+        color: #333;
+        padding-bottom:0px;
+        border-bottom:1px solid #333;
+}
+
+p {
+        padding: 0 0 0 0;
+	font-size:15px;
+	color: #333
+}
+
+#wrapper {
+        margin:-22px auto 0 auto;
+        width: 750px;
+        text-align: left;
+}
+
+#header {
+        float: left;
+        width: 750px;
+        border: 1px solid #e1e8ed;
+        background: #1DA1F2;
+        border-radius: 6px;
+}
+
+#header h1 {
+        margin-bottom: 10px;
+}
+
+#header h1 a {
+        border-bottom:none;
+        padding-left: 20px;
+        text-decoration: none;
+}
+
+#description {
+        float: left;
+        padding-left: 60px;
+        margin: 0 auto 20px auto;
+}
+
+#container {
+        float: left;
+        width: 500px;
+        margin-top: 10px;
+        border: 1px solid #e1e8ed;
+        background: #fff;
+        border-radius: 6px;
+}
+#scontainer {
+        float: left;
+        margin-top: 10px;
+        border-radius: 6px;
+        border: 1px solid #e1e8ed;
+        word-break: break-all;
+        background: #fff;
+}
+
+.responce {
+        margin-left:10px;
+}
+
+#respond {
+        background:lightblue;
+        padding:10px;
+        margin-right:10px;
+
+}
+
+.sidebar {
+        padding-top: 5px;
+        float: left;
+        width: 235px;
+        margin: 10px 0 0 10px;
+        <
+        strong>display: inline;</
+        strong>;
+        border: 1px solid #e1e8ed;
+        background: #fff;
+        border-radius: 6px;
+}
+.sidebar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0 10px 0 10px;
+}
+
+.sidebar ul li h2{
+        font-family: Georgia, Sans-serif;
+        font-size: 14px;
+}
+
+.sidebar ul ul li {
+        padding: 0;
+        line-height: 24px;
+}
+
+.side-title {
+        background:lightblue;
+        padding:5px;
+}
+
+#footer {
+        clear: both;
+        width: 750px;
+        text-align:center;
+        padding-bottom: 20px;
+}
+
+.post {
+        padding: 10px 10px 10px 10px;
+}
+
+.post h2{
+        font-family: Georgia, Sans-serif;
+        font-size: 18px;
+	color:#000
+}
+
+p.postmetadata{
+        margin: 10px 0 0 0;
+}
+
+.navigation {
+        clear: both;
+        float:center;
+        margin: 0 auto;
+        text-align:center;
+        font-size: 14px;
+        line-height: 18px;
+}
+.navigation ul {
+        list-style:none;
+        padding:0;
+}
+.navigation ul li {
+        float:center;
+        text-align:center;
+        display:inline-block;
+}
+
+.entry {
+        line-height: 1.5;
+	color:#333;
+}
+
+.entry ul {
+        float: center;
+        text-align:right;
+        list-style:none;
+        padding-bottom:0px;
+	border-bottom: 1px solid #ccc;
+}
+
+.entry ul li {
+        display:inline-block;
+        margin:0 0 0 0;
+}
+
+.comments-template{
+	margin: 10px 0 0;
+	border-top: 1px solid #ccc;
+	padding: 10px 0 0;
+}
+
+
+#comments {
+        background:lightblue;
+        padding:10px;
+        margin-right:10px;
+}
+
+.commentlist {
+        margin-left:-40px;
+        margin-right:10px;
+}
+.commentlist li {
+        list-style-type:none;
+}
+
+
+.comments-template ol{
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+}
+
+.comments-template ol li{
+	margin: 10px 0 0;
+	line-height: 18px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments-template h2, .comments-template h3{
+	font-family: Georgia, Sans-serif;
+	font-size: 16px;
+}
+
+.commentmetadata{
+        float:center;
+        text-align:right;
+        border-bottom:1px solid lightGray;
+	font-size: 12px;
+}
+
+.comments-template p.nocomments{
+	padding: 0;
+}
+
+.comments-template textarea{
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+}
+
+
