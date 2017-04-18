@@ -13,10 +13,10 @@
                                                 <?php the_author_link(); ?>
                                                 <?php _e('提交于:'); ?>
                                                 <?php the_time('Y-m-d'); ?>
-                                        </li> | 
+                                        </li> |
                                         <li>
                                                 <a rel="more-link" href="<?php the_permalink() ?>"?>固定链接</a>
-                                        </li> | 
+                                        </li> |
                                         <li>
                                                 <?php comments_popup_link('评论(0)', '评论(1)', '评论(%)' );?>
                                         </li>

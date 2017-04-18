@@ -76,18 +76,21 @@
 
                ?>
                 </ul>
-        </li>
+	</li>
+	<li>
+		<h2><div class="side-title"><?php _e('本站公众号'); ?></div></h2>
+		<ul>
+			<img src="wp-content/themes/Simple3.8.1/code.jpg" height="200" width="200">
+		</ul>
         <li>
                 <h2><div class="side-title"><?php _e('友情链接'); ?></div></h2>
                 <ul>
                         <li>
                         <a href="http://blog.csdn.net/u011370933" title="福临天下的blog">福临天下的blog</a>
-                        </li>
+			</li>
                         <li>
-                        <a href="http://www.doyourself.com.cn/" title="清风的blog">清风的blog</a>
+			<a href="http://nonblock.cn" title="Qwerty的Blog">Qwerty的Blog</a>
                         </li>
-                        <a href="http://www.cnblogs.com/likeyiyy/" title="李可以的blog">李可以的blog</a>
-                        <li>
 
                 </ul>
         </li>

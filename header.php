@@ -15,7 +15,6 @@
 	<?php //comments_popup_script(); // off by default ?>
 	<?php wp_head(); ?></head>
 <body>
-<?php include_once("analyticstracking.php") ?>
 <div id="wrapper">
 <div id="header">
         <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
