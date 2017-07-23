@@ -27,7 +27,7 @@
                 <h2><div class="side-title"><?php _e('Comments'); ?></div></h2>
                 <ul>
                         <?php $args = array(
-                            'number' => 5,
+                            'number' => 15,
                             'status' => 'approve',
                             'type' => 'comment',
                             'user_id' => 0,
@@ -101,7 +101,7 @@
                         <li>
                         <?php get_links_list(); ?>
                         </li>
-                        <li><a href="http://blog.gotocoding.com/?feed=rss2" title="使用RSS 2.0订阅本站点内容"><abbr title="Really Simple Syndication">RSS</abbr></a></li>
+				<li><a href="<?php bloginfo('rss2_url'); ?>" title="使用RSS 2.0订阅本站点内容"><abbr title="Really Simple Syndication">RSS</abbr></a></li>
                         <?php wp_register(); ?>
                         <li><?php wp_loginout(); ?></li>
                         <?php wp_meta(); ?>
