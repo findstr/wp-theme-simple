@@ -10,12 +10,12 @@
         <li>
                 <h2><div class="side-title"><?php _e('Categories'); ?></div></h2>
                 <ul>
-                        <?php wp_list_cats('sort_column=name&optioncount=1&hierachical=0'); ?>
+			<?php wp_list_categories('sort_column=name&optioncount=1&hierachical=0&title_li='); ?>
                 </ul>
         </li>
 	<li>
 		<h2><div class="side-title"><?php _e('标签'); ?></dev></h2>
-		<?php wp_tag_cloud('smallest=12&largest=18&unit=px&number=0&orderby=count&order=DESC');?>
+		<?php wp_tag_cloud('smallest=12&largest=25&unit=px&number=32&orderby=count&order=RAND');?>
 	</li>
         <li>
                 <h2><div class="side-title"><?php _e('Archives'); ?></div></h2>
@@ -99,7 +99,7 @@
                 <h2><div class="side-title"><?php _e('Meta'); ?></div></h2>
                 <ul>
                         <li>
-                        <?php get_links_list(); ?>
+                        <?php wp_list_bookmarks(); ?>
                         </li>
 				<li><a href="<?php bloginfo('rss2_url'); ?>" title="使用RSS 2.0订阅本站点内容"><abbr title="Really Simple Syndication">RSS</abbr></a></li>
                         <?php wp_register(); ?>
