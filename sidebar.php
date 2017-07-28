@@ -80,7 +80,7 @@
 	<li>
 		<h2><div class="side-title"><?php _e('本站公众号'); ?></div></h2>
 		<ul>
-			<img src="wp-content/themes/Simple3.8.1/code.jpg" height="200" width="200">
+			<img src="wp-content/themes/Simple3.8.1/code.jpg" alt="我的二维码" height="200" width="200">
 		</ul>
         <li>
                 <h2><div class="side-title"><?php _e('友情链接'); ?></div></h2>
