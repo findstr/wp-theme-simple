@@ -4,7 +4,7 @@
 		<div itemscope itemtype="http://schema.org/Article" class="post">
 
 			<meta itemprop="mainEntityOfPage" content="<?php the_permalink() ?>"/>
-                        <meta itemprop="dateModified" content="<?php the_time('Y-m-d'); ?>T<?php the_time('g:i a'); ?>" />
+			<meta itemprop="dateModified" content="<?php the_modified_time('Y-m-j'); ?>T<?php the_modified_time('G:i'); ?>" />
                         <div itemscope itemtype="https://schema.org/Organization" itemprop="publisher" content="<?php the_time('Y-m-d'); ?>"/>
                         	<meta itemprop="name" content="<?php the_time('Y-m-d'); ?>" />
                            	<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">

@@ -85,8 +85,8 @@
         <li>
                 <h2><div class="side-title"><?php _e('友情链接'); ?></div></h2>
                 <ul>
-                        <li>
-                        <a href="http://blog.csdn.net/u011370933" title="福临天下的blog">福临天下的blog</a>
+			<li>
+			<a href="http://blog.javayc.com" title="于超博客">于超博客</a>
 			</li>
                         <li>
 			<a href="http://nonblock.cn" title="Qwerty的Blog">Qwerty的Blog</a>
