@@ -24,19 +24,22 @@
                                 </p>
                         </div>
                 </div>
-                <?php endwhile; ?>
-        <?php else: ?>
+		<?php endwhile; ?>
+		<div class="load-more">
+			<? next_posts_link('更多','');?>
+		</div>
+		<script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="<?php echo get_template_directory_uri();?>/more.js"></script>
+	<?php else: ?>
                 <div class="post">
                         <h2><?php_e("Not Found"); ?></h2>
                 </div>
-        <?php endif; ?>
-
+	<?php endif; ?>
 </div>
 
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
-
 </div>
 </body>
 </html>

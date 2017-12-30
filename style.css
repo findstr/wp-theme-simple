@@ -242,4 +242,21 @@ p.postmetadata{
 	font-size: 12px;
 }
 
+.load-more {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 30px;
+}
+
+.load-more a {
+    border: 1px solid #e1e4e8;
+    padding: 9px 26px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    color: #0366d6;
+    border-radius: 3px;
+
+}
 

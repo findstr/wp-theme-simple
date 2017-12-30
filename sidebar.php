@@ -92,9 +92,8 @@
 			<a href="http://nonblock.cn" title="Qwerty的Blog">Qwerty的Blog</a>
                         </li>
 
-                </ul>
-        </li>
-
+		</ul>
+	</li>
         <li>
                 <h2><div class="side-title"><?php _e('Meta'); ?></div></h2>
                 <ul>
@@ -106,7 +105,6 @@
                         <li><?php wp_loginout(); ?></li>
                         <?php wp_meta(); ?>
                 </ul>
-        </li>
-
+	</li>
 </ul>
 </div>
