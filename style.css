@@ -137,7 +137,10 @@ p {
 }
 
 .post {
-        padding: 10px 10px 10px 10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:18px;
+	padding-right:18px;
 }
 
 .post h2{
