@@ -90,7 +90,7 @@ $oddcomment = 'alt';
 <!--<p><small><strong>XHTML:</strong> <?php _e('You can use these tags&#58;'); ?> <?php echo allowed_tags(); ?></small></p>-->
 
 <label for="content"><small>评论内容：</small></label>
-<p><textarea name="comment" id="comment" cols="60" rows="10" tabindex="4"></textarea></p>
+<p><textarea name="comment" id="comment" cols="43" rows="10" tabindex="4"></textarea></p>
 
 <p><input name="submit" type="submit" id="submit" tabindex="5" value="提交评论" />
 <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />

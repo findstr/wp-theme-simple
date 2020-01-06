@@ -12,6 +12,9 @@ body {
         vertical-align:top;
         background:#f5f8fa;
         color:#000000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 h1 {
@@ -34,18 +37,18 @@ a:link, a:visited, a:hover {
 p {
         padding: 0 0 0 0;
 	font-size:15px;
-	color: #333
+	color: #333;
 }
 
 #wrapper {
-        margin:-22px auto 0 auto;
-        width: 750px;
         text-align: left;
+	display: flex;
+	max-width:780px;
+	flex-direction: column;
 }
 
 #header {
         float: left;
-        width: 750px;
         border: 1px solid #e1e8ed;
         background: #1DA1F2;
         border-radius: 6px;
@@ -69,7 +72,6 @@ p {
 
 #container {
         float: left;
-        width: 500px;
         margin-top: 10px;
         border: 1px solid #e1e8ed;
         background: #fff;
@@ -95,18 +97,25 @@ p {
 
 }
 
-.sidebar {
-        padding-top: 5px;
-        float: left;
-        width: 235px;
-        margin: 10px 0 0 10px;
-        <
-        strong>display: inline;</
-        strong>;
-        border: 1px solid #e1e8ed;
-        background: #fff;
-        border-radius: 6px;
+@media screen and (max-width:450px) {
+	.sidebar {
+		display: none;
+	}
 }
+
+@media screen and (min-width:450px) {
+	.sidebar {
+		padding-top: 5px;
+		float: left;
+		width: 235px;
+		margin: 10px 0 0 10px;
+		display: inline;
+		border: 1px solid #e1e8ed;
+		background: #fff;
+		border-radius: 6px;
+	}
+}
+
 .sidebar ul{
         list-style-type: none;
         margin: 0;
@@ -130,7 +139,6 @@ p {
 
 #footer {
         clear: both;
-        width: 750px;
         text-align:center;
         padding-bottom: 20px;
         padding-top: 10px;

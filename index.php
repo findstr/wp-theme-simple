@@ -1,5 +1,6 @@
 ﻿<?php get_header(); ?>
 
+<div style="display: flex; flex-direction: row">
 <div id="container">
         <?php if(have_posts()): query_posts($query_string. '&orderby=data&showposts=10'); ?><?php while(have_posts()) : the_post(); ?>
                 <div class="post">
@@ -38,6 +39,8 @@
 </div>
 
 <?php get_sidebar(); ?>
+
+</div>
 
 <?php get_footer(); ?>
 </div>
